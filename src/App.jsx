@@ -317,7 +317,7 @@ const App = () => {
                 <div className="overflow-x-auto">
                   <table className="w-full text-left border-collapse text-sm min-w-[600px]">
                     <thead>
-                      <tr className="bg-slate-50/80 border-b border-slate-200 text-slate-400 text-xs font-bold uppercase tracking-wider">
+                      <tr className="bg-slate-300 border-b border-slate-200 text-slate-900 text-xs font-bold uppercase tracking-wider">
                         <th className="py-4 px-5">ID</th>
                         <th className="py-4 px-5">Subject</th>
                         <th className="py-4 px-5">Requester</th>
@@ -381,7 +381,7 @@ const App = () => {
 
               {/* Ticket Detail View */}
               {selectedTicket && (
-                <div className="bg-white p-6 sm:p-8 rounded-3xl shadow-lg shadow-indigo-950/5 border border-slate-200/80 space-y-6 animate-fadeIn">
+                <div className="bg-slate-200 p-6 sm:p-8 rounded-3xl shadow-lg shadow-indigo-950/5 border border-slate-200/80 space-y-6 animate-fadeIn">
                   <div className="flex justify-between items-center border-b border-slate-100 pb-4">
                     <div>
                       <span className="text-xs font-extrabold text-indigo-600 bg-indigo-50 px-3 py-1 rounded-xl border border-indigo-100">
@@ -410,7 +410,7 @@ const App = () => {
 
                   {/* Comments Section */}
                   <div className="border-t border-slate-100 pt-5 space-y-4">
-                    <h3 className="text-xs font-bold uppercase tracking-wider text-slate-400">Comments & Activity Timeline</h3>
+                    <h3 className="text-xs font-bold uppercase tracking-wider text-slate-800">Comments & Activity Timeline</h3>
                     <div className="space-y-3 max-h-48 overflow-y-auto pr-1">
                       {selectedTicket.comments.length > 0 ? (
                         selectedTicket.comments.map((c, i) => (
@@ -464,8 +464,8 @@ const App = () => {
               </div>
 
               {/* VISUAL GRAPHS SECTION */}
-              <div className="bg-white p-6 sm:p-8 rounded-3xl shadow-sm border border-slate-200/80 space-y-6">
-                <h3 className="font-extrabold text-lg text-slate-900">📊 Ticket Distribution Analytics</h3>
+              <div className="bg-blue-100 p-6 sm:p-8 rounded-3xl shadow-sm border border-slate-200/80 space-y-6">
+                <h3 className="font-extrabold text-lg text-slate-900">Ticket Distribution Analytics</h3>
                 
                 {/* Status Bar Graph */}
                 <div className="space-y-4">
