@@ -226,13 +226,13 @@ const App = () => {
       )}
 
       {/* Modern Header */}
-      <div className="flex flex-col-reverse sm:flex-row justify-between items-start sm:items-center gap-5 mb-8 bg-gradient-to-r from-slate-900 via-indigo-950 to-purple-950 p-6 sm:p-8 rounded-3xl shadow-xl shadow-indigo-950/10 text-white border border-indigo-800/30">
+      <div className="flex flex-col-reverse sm:flex-row justify-between items-start sm:items-center gap-5 mb-8 bg-slate-800 p-6 sm:p-8 rounded-3xl shadow-xl shadow-indigo-950/10 text-white border border-indigo-800/30">
         <div className="space-y-1">
           <div className="inline-block px-3 py-1 rounded-full bg-indigo-500/20 text-indigo-300 text-xs font-semibold mb-2 border border-indigo-500/30">
-            Enterprise Helpdesk
+            Helpdesk
           </div>
           <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight">Support Management</h1>
-          <p className="text-xs sm:text-sm text-slate-300 font-medium">Real-time resolution dashboard & tracking</p>
+          <p className="text-xs sm:text-sm text-slate-300 font-medium">Dashboard & Tracking</p>
         </div>
         <div className="flex items-center gap-4 w-full sm:w-auto justify-between sm:justify-start">
           <div className="flex items-center gap-3 bg-white/10 backdrop-blur-md px-4 py-2.5 rounded-2xl border border-white/10">
@@ -251,7 +251,7 @@ const App = () => {
               setFormDescription("");
               setShowCreateModal(true);
             }}
-            className="bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700 text-white px-5 py-3 rounded-2xl text-sm font-bold shadow-lg shadow-indigo-500/30 transition-all active:scale-95"
+            className="bg-blue-700 hover:bg-blue-800 text-white px-5 py-3 rounded-2xl text-sm font-bold shadow-lg shadow-indigo-500/30 transition-all active:scale-95"
           >
             + New Ticket
           </button>
